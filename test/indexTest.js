@@ -1,4 +1,14 @@
+const drivers = ['Milo', 'Otis', 'Garfield'];
 const expect = chai.expect;
+const destructivelyAppendDriver = drivers.unshift();
+const destructivelyRemoveLastDriver = drivers.pop();
+const destructivelyRemoveFirstDriver = drivers.shift();
+const appendDriver = drivers.push();
+const removeLastDriverdriver = drivers;
+const removeFirstDriver = drivers.shift();
+
+
+
 
 describe('index.js', function () {
   describe('drivers', function () {
